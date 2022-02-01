@@ -1,0 +1,2 @@
+alert('Goodbye World');
+fartscroll();

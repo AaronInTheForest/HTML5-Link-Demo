@@ -1,13 +1,46 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>HTML 5 Link Demo</title>
-        <meta name="description" content="A demonstration on linking external files in HTML5">
-        <meta name="author" content="Aaron Champagne">
-    </head>
-<body>
-    
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML 5 Link Demo</title>
+    <meta name="description" content="A demonstration on linking external files in HTML5">
+    <meta name="author" content="Aaron Champagne">
+    <!-- THE ORDER OF YOUR FILES MATTERS! RESET GOES FIRST, THEN YOUR STYLES -->
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- <script src="scripts/fart.js"></script> -->
+    <script src="scripts/helloworld.js"></script>
+    <script src="scripts/goodbyeworld.js"></script>
+</head>
+
+<body class="container">
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="pages/about.html">ABOUT</a>
+    </nav>
+    <script>
+        alert("I don't know why you say goodbye I say hello");
+    </script>
+    <h1 class="bg-info">DEMO</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, sem et volutpat lacinia, massa felis lacinia quam, et dictum dui turpis vulputate urna. Sed tincidunt mi vel convallis dignissim. Ut eget lectus nec orci tincidunt auctor vitae non quam. In hac habitasse platea dictumst. Nam sagittis ornare mauris, et tempor mauris posuere nec. Aliquam porta nibh eu bibendum ullamcorper. Suspendisse potenti.</p>
+
+    <p>Vivamus commodo varius magna. Praesent facilisis purus diam, ac tincidunt ex sodales vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed quis nisl fermentum, blandit ipsum ac, cursus neque. Morbi congue metus purus, eu blandit sapien suscipit eget. Suspendisse lacinia lacinia sem eget blandit. Phasellus lacinia augue eget pharetra suscipit. Ut bibendum egestas turpis ut placerat. Mauris ornare urna in odio aliquam, et ultricies tellus commodo. Vivamus malesuada rutrum pretium. Suspendisse in diam at lorem rutrum rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer malesuada leo vitae risus efficitur, sed aliquam urna ultricies.</p>
+
+    <p>Donec justo odio, elementum id nulla ac, consectetur molestie justo. Quisque facilisis risus et tortor venenatis, ut pulvinar neque auctor. Vestibulum gravida est nulla. Phasellus at ultrices nisi, sed interdum elit. Donec nec elit ligula. Nulla quam elit, varius id risus tempor, consectetur imperdiet elit. Pellentesque lobortis lacus nisi, non luctus sapien lacinia in. Nullam ut dui id lorem viverra eleifend in egestas metus. Aenean sed nunc malesuada, commodo orci dapibus, egestas arcu. Donec in risus eu eros scelerisque elementum. Nam finibus nisl lorem, placerat congue augue imperdiet non.</p>
+
+    <p>Nam nulla mi, volutpat vitae metus in, laoreet dignissim tortor. Nunc ut nisl in turpis lacinia fringilla. Mauris efficitur massa sed turpis convallis, sit amet consequat turpis euismod. Nunc malesuada, erat vel malesuada facilisis, orci diam consequat urna, ac iaculis tellus magna eu nunc. Duis sed nisi turpis. Pellentesque tristique aliquet scelerisque. Duis varius ullamcorper ex a aliquam.</p>
+
+    <p> Vestibulum sit amet purus turpis. Duis tincidunt leo sit amet nisl volutpat, eu faucibus felis porta. Aliquam lacinia maximus ligula, eget venenatis nibh hendrerit ut. Proin placerat dictum ante, vel rutrum urna tincidunt nec. Mauris eu nibh metus. Integer lobortis gravida velit, quis finibus purus convallis vel. Mauris semper volutpat purus sodales malesuada. Integer id elit ligula.</p>
+    <button onclick="alert('You clicked me!')">Click Me</button>
+    <form>
+        <label for="emailField">Email</label>
+        <input id="emailField" type="email" required>
+        <input type="submit">
+    </form>
 </body>
+
 </html>
